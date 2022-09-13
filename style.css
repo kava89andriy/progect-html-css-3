@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Avenir Roman";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir Roman"), url("avenir.woff") format("woff");
+}
+@font-face {
+    font-family: "Helvetica regular";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Helvetica regular"), url("Helvetica_regular.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Helvetica Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Helvetica Bold"), url("Helvetica_Bold.woff") format("woff");
+  }
+
+  *,
+  *::before,
+  *::after {
+    padding: 0;
+    margin: 0;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+body {
+  font-family: "Avenir Roman", sans-serif;
+}
+
+.container {
+max-width: 960px;
+width: 100%;
+margin: 0 auto;
+}
+
+h1 {
+    font-family: "Helvetica Bold";
+}
+
+.navigation-wraper {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.nav-list {
+display: flex;
+}
+
+.left-column {
+    display: flex;
+align-items: center;
+}
+
+.hero-baner {
+background-image: url(bg.png);
+background-repeat: no-repeat;
+background-size: contain;
+background-position: right bottom;
+}
